@@ -1,0 +1,54 @@
+.home{
+    background: url('../src/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+header{
+    font-family: "Poppins", sans-serif;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+}
+
+header .left{
+    margin-left: 30px;
+}
+
+header .left a{
+    margin-right: 25px;
+}
+
+header .right{
+    margin-right: 30px;
+}
+
+header .right a{
+    margin-left: 25px;
+}
+
+.home .content{
+    font-family: "Lora", serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.portfolio{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 13, 32);
+}
